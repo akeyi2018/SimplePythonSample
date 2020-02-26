@@ -1,14 +1,14 @@
 import sys
 from tkinter import *
 
-def make_cmd(yama):
+def make_cmd(val_str):
     buff = StringVar()
-    buff.set(yama)
+    buff.set(val_str)
     label = Label(root, textvariable = buff)
     label.pack()
 
 root = Tk()
-button = Button(root, text = "Python/Tkinter", command= make_cmd("yama"))
+button = Button(root, text = "Python/Tkinter", command= make_cmd("Hello_wrold!"))
 button.pack()
 
 root.mainloop()
