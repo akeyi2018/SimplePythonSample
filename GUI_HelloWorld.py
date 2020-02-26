@@ -1,6 +1,7 @@
 import sys
 from tkinter import *
 
+#define function of label in GUI.
 def make_cmd(val_str):
     buff = StringVar()
     buff.set(val_str)
