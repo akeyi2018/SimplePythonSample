@@ -7,7 +7,6 @@ LEDPIN = 20
 def setup():
     GPIO.setFunction(LEDPIN, GPIO.OUT)
     
-    
 def loop():
     GPIO.digitalWrite(LEDPIN,1)
     time.sleep(0.5)
