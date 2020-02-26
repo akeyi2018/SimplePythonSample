@@ -14,4 +14,5 @@ def Measure():
     
     tof.stop_ranging()
 
+#write distance from sensor to result.txt in current folder. 
 Measure()
