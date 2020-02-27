@@ -4,6 +4,7 @@ import os
 STEP =2
 DELAY = 0.02
 
+# using servo blaster to controll servo motor. 
 def setServo(pin):
     print("Set servo[" + str(pin) + "]")
     cmd = "sudo servod --p1pins=" + str(pin)
