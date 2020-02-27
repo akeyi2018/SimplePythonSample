@@ -272,8 +272,10 @@ def on_release(key):
 
 setup()
 Test01()
+
 setup()
 Test02()
+
 with Listener(
     on_press = on_press,
     on_release = on_release) as listener:
