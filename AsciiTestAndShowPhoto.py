@@ -11,7 +11,3 @@ while True:
         print("end")
         break
 cv2.destroyAllWindows()
-
-
-
-    
