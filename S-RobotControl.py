@@ -143,7 +143,6 @@ def on_release(key):
         return False
 
 setup()
-#Test02()
 
 with Listener(
     on_press = on_press,
