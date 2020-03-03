@@ -8,6 +8,4 @@ def aaa(num, angle):
 def bbb():
     aaa(1, 1000)
 
-bbb()
-
 print(arm[1])
