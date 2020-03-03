@@ -66,8 +66,3 @@ def stop2():
 
 setup()
 roll()
-#stop2()
-
-
-
-
