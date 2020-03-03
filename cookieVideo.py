@@ -8,5 +8,5 @@ with picamera.PiCamera() as camera:
     time.sleep(5)
     camera.stop_recording()
     #camera.capture("/home/pi/Desktop/newimage.jpg")
+    
 print("Picture taken")
-
