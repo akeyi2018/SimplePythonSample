@@ -5,7 +5,6 @@ S = 26
 
 span = 0.3
 
-
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(S,GPIO.IN)
 
