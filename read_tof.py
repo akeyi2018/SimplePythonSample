@@ -65,9 +65,8 @@ def read_tof():
     #data = data >> 3
     return word_data
 
+#this is original sample   
 while True:
     inputVal = read_tof()
     print(str(inputVal))
     time.sleep(1)
-
-    
