@@ -26,6 +26,7 @@ def readTOFSensor():
     else:
         return ("not ready")
 
+#output 200 times of distance info.
 for i in range(1,200):
     print(readTOFSensor())
     
