@@ -4,7 +4,7 @@ import time
 from subprocess import call
 
 d = datetime.datetime.today()
-
+#time format
 fpath = "{0}{1:02d}{2:02d}{3:02d}{4:02d}{5:02d}.jpg\
 ".format(d.year, d.month, d.day, d.hour,d.minute,d.second)
 
