@@ -4,6 +4,7 @@ from subprocess import call
 filepath1 = "/home/pi/zippy/kurumi/peanuts_"
 filepath2 = "/home/pi/zippy/kurumi/kurumi_"
 
+#check number of 1000 
 def CheckPath():
     for ct in range(1,1000):
         num = '{0:04d}'.format(ct)
@@ -23,5 +24,3 @@ for ct in range(169,450):
         print(tmp2)
     else:
         pass
-
- 
