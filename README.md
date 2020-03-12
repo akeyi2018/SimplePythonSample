@@ -1,7 +1,7 @@
 <H4>SimplePythonSample
 
 <h5>Python学習用初心者向けのサンプルを置きましたので、役に立ててください
-<h5>サンプル一覧  
+<h5>サンプル一覧
 | No | Program Name | 機能 | 難易度 | 使用ライブラリ | 備考 |  
 |---:|:---|:---|:---|:---|:---|
 |1|[AsciiTestAndShowPhoto.py](https://github.com/akeyi2018/SimplePythonSample/blob/master/AsciiTestAndShowPhoto.py)|<font size=9>アスキー変換及び写真表示サンプル</font>|★|||
