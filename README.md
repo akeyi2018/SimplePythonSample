@@ -20,7 +20,7 @@
 |13|[rename.py](https://github.com/akeyi2018/SimplePythonSample/blob/master/rename.py)|ファイル名ナンバリングを振るサンプル|★★★|||
 |14|[cookieTimeStamp.py](https://github.com/akeyi2018/SimplePythonSample/blob/master/cookieTimeStamp.py)|明るさを変更して、撮影するサンプル（写真にタイムスタンプを書き込みする）|★★★★|picamera, datetime||
 |15|[pmwLedTest.py](https://github.com/akeyi2018/SimplePythonSample/blob/master/pmwLedTest.py)|WEBIOPIを使用したPWMによるLEDの調光サンプル|★★★★|wiringpi, webiopi|PWM制御あり|
-|16|[MoveServoSample.py](https://github.com/akeyi2018/SimplePythonSample/blob/master/MoveServoSample.py)|サーボモーターをソフトPWMで動かすサンプル|★★★★★|wiringpi, webiopi||
+|16|[Servo_wiringpi.py](https://github.com/akeyi2018/SimplePythonSample/blob/master/MoveServoSample.py)|サーボモーターをソフトPWMで動かすサンプル|★★★★★|wiringpi, webiopi||
 |17|[S-RobotControl.py](https://github.com/akeyi2018/SimplePythonSample/blob/master/S-RobotControl.py)|キーボードより6軸ロボットを動かすサンプル|★★★★★|pynput, pigpio|6軸ロボット必要|
 |18|[blink.py](https://github.com/akeyi2018/SimplePythonSample/blob/master/blink.py)|WebiopiによるLED点滅のサンプル（リモート操作する場合、JavaScript作成必要あり）|★★★★★|webiopi|別途JavascriptとHTML作成必要あり|
 |19|[servoBlasterTest.py](https://github.com/akeyi2018/SimplePythonSample/blob/master/servoBlasterTest.py)|壊れたロボットの動きするので、再現したい方は参考にしてください。|★★★★★||servodコマンドを使ったロボット操作|
