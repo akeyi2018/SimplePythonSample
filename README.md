@@ -23,4 +23,4 @@
 |16|[Servo_wiringpi.py](https://github.com/akeyi2018/SimplePythonSample/blob/master/MoveServoSample.py)|サーボモーターをソフトPWMで動かすサンプル|★★★★★|wiringpi, webiopi||
 |17|[S-RobotControl.py](https://github.com/akeyi2018/SimplePythonSample/blob/master/S-RobotControl.py)|キーボードより6軸ロボットを動かすサンプル|★★★★★|pynput, pigpio|6軸ロボット必要|
 |18|[blink.py](https://github.com/akeyi2018/SimplePythonSample/blob/master/blink.py)|WebiopiによるLED点滅のサンプル（リモート操作する場合、JavaScript作成必要あり）|★★★★★|webiopi|別途JavascriptとHTML作成必要あり|
-|19|[Servo_gpiozero.py](https://github.com/akeyi2018/SimplePythonSample/blob/master/servoBlasterTest.py)|soluved the juter problem. |★★★||gpiozero|
+|19|[Servo_gpiozero.py](https://github.com/akeyi2018/SimplePythonSample/blob/master/servoBlasterTest.py)|soluved the juter problem. |★★★|gpiozero||
