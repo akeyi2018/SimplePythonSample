@@ -1,9 +1,9 @@
 import time
 import RPi.GPIO as GPIO
 
-TRIG = 18
-ECHO = 23
-LED = 24
+TRIG = 17
+ECHO = 27
+LED = 5
 
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
