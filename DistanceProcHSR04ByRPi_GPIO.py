@@ -9,7 +9,6 @@ GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(TRIG,GPIO.OUT)
 GPIO.setup(ECHO,GPIO.IN)
-
 GPIO.setup(LED, GPIO.OUT)
 
 distance = 0
