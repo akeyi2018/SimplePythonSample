@@ -1,8 +1,8 @@
 import time
 import RPi.GPIO as GPIO
 
-TRIG = 17
-ECHO = 27
+TRIG = 27
+ECHO = 17
 LED = 5
 
 GPIO.setwarnings(False)
@@ -28,10 +28,14 @@ def reading(sensor):
             son = time.time()
 
         timepassed = son - soff
-        return timepassed * 17000
-       # return timepassed * (331.50+0.606681*25)*100/2
+        #return timepassed * 17000
+        return timepassed * (331.50+0.606681*25)*100/2
     else:
         print ("Incorrect usonic() function varible.")
+
+GPIO.output(LED,1)
+time.sleep(1.0)
+GPIO.output(LED,0)
 
 while True:
     distance = reading(0)
@@ -39,5 +43,5 @@ while True:
         GPIO.output(LED,1)
     else:
         GPIO.output(LED,0)
-    #print ("{:0.2f}cm".format(reading(0)))
+    print ("{:0.2f}cm".format(reading(0)))
     time.sleep(0.01)

@@ -5,7 +5,7 @@ flg = 0
 button = Button(20, hold_time = 0.1)
 
 def setServoState(flg):
-    servo = Servo(21)
+    servo = Servo(18)
     if flg == 0:
         servo.min()
     else:
