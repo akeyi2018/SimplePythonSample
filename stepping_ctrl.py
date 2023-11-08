@@ -17,8 +17,8 @@ class C28BYJ48:
         self.stepCount = 8
         self.stop_time = datetime.time(17,30,00,000)
         self.start_time = datetime.time(9,00,00,000)
-        self.lunch_time_s = datetime.time(10,55,00,000)
-        self.lunch_time_e = datetime.time(11,10,00,000)
+        self.lunch_time_s = datetime.time(10,40,00,000)
+        self.lunch_time_e = datetime.time(10,42,00,000)
 
     def seq(self):
         return [[1,0,0,1], [1,0,0,0],[1,1,0,0],[0,1,0,0],[0,1,1,0],[0,0,1,0],[0,0,1,1],[0,0,0,1]]
@@ -67,13 +67,27 @@ class C28BYJ48:
 if __name__ == '__main__':
     StepMotor = C28BYJ48(12,16,20,21)
     wait_time = 30
+    # dt = datetime.datetime.now().time()
+
+    # if StepMotor.lunch_time_e >= dt and dt >= StepMotor.lunch_time_s:
+        # print('lunch time')
+
+    # while True:
+    #     dt = datetime.datetime.now().time()
+    #     if StepMotor.lunch_time_e >= dt and dt >= StepMotor.lunch_time_s:
+    #         print('lunch time')
+    #         sleep(10)
+    #     else:
+    #         print('working time')
+    #         sleep(10)
+
     while True:
         dt = datetime.datetime.now().time()
         if dt > StepMotor.stop_time:
             sys.exit()
         elif dt < StepMotor.start_time:
             sys.exit()
-        elif StepMotor.lunch_time_s >= dt <= StepMotor.lunch_time_e:
+        elif StepMotor.lunch_time_e >= dt and dt >= StepMotor.lunch_time_s:
             sleep(30)
         else: 
             #時計周り 180度回転/撮影時間1分
