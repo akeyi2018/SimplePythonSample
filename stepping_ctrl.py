@@ -17,8 +17,8 @@ class C28BYJ48:
         self.stepCount = 8
         self.stop_time = datetime.time(17,30,00,000)
         self.start_time = datetime.time(9,00,00,000)
-        self.lunch_time_s = datetime.time(10,40,00,000)
-        self.lunch_time_e = datetime.time(10,42,00,000)
+        self.lunch_time_s = datetime.time(12,00,00,000)
+        self.lunch_time_e = datetime.time(13,00,00,000)
 
     def seq(self):
         return [[1,0,0,1], [1,0,0,0],[1,1,0,0],[0,1,0,0],[0,1,1,0],[0,0,1,0],[0,0,1,1],[0,0,0,1]]
